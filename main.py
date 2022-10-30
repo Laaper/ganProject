@@ -53,7 +53,7 @@ class Generator(nn.Module):
     def forward(self,input):
         input=self.genenet(input)
         return input
-
+#测试commit功能能够实现
 generator=Generator()
 discriminator=Discriminator()
 if torch.cuda.is_available() :
